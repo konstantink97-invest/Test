@@ -1,0 +1,32 @@
+:root {
+  color-scheme: light dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
+  background: #0b0c10;
+  color: #e5e7eb;
+}
+
+.center {
+  min-height: 100svh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+}
+
+.logo {
+  max-width: min(540px, 80vw);
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(0 6px 24px rgba(0, 0, 0, 0.35));
+}
